@@ -1,0 +1,88 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-row-gap: 0.5em;
+    position: relative; 
+}
+
+.wrapper > div {
+    display: block;
+    box-shadow: 2px 2px 15px black;
+    background: rgba(255, 255, 255, 0.911);
+    padding: 1em;
+    text-align: right;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+   
+
+
+}
+.wrapper > div:nth-child(odd) {
+    box-shadow: 2px 2px 15px black;
+    background: rgba(0, 0, 0, 0.76);
+    display: block;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    
+}
+#leftalign {
+    text-align: left;
+}
+
+a {
+    font-family: arial;
+    color:"white";
+    text-shadow: 2px 2px 10px black;
+    color: white;
+}
+
+
+#whitetext {
+    color: white;
+}
+#blacktext {
+    color: black;
+}
+a:link {
+    text-decoration: none;
+}
+#thebody {
+    border-radius: 10px;
+    margin: 0 auto;
+}
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+body {
+    background-image: url(../assets/wp.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: Arial;
+}
+
+h1 {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 5px black;
+}
+img {
+    border-radius: 50%;
+    box-shadow: 2px 2px 15px white;     
+}
+
+body {
+    display: flex;
+    justify-content: space-around;
+}
+#small {
+    font-size: 80%;
+}
